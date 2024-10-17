@@ -1,13 +1,20 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
+import Navigation from './features/navigation/navigation';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './features/home/home';
+import Create from './features/create/create';
 import './App.css';
 
 function App() {
   return (
-    <div>
-      <p>Početak</p>
-    </div>
+    <>
+      <BrowserRouter>
+        <Navigation />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/create" element={<Create />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
