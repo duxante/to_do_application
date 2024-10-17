@@ -12,10 +12,9 @@
 }
 
 .navigationLogo{
-    max-width: 40px;
+    max-width: 80px;
     width: 100%;
     margin-left: 15px;
-    padding: 5px 0px;
 }
 
 .navigationLogo:hover{
