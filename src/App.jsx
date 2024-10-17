@@ -1,13 +1,14 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
+import Navigation from './features/navigation/navigation';
 import './App.css';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <p>Početak</p>
-    </div>
+    <>
+      <BrowserRouter>
+        <Navigation />
+      </BrowserRouter>
+    </>
   );
 }
 
