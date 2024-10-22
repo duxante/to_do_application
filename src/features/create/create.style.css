@@ -1,0 +1,40 @@
+.createHolder{
+    margin: 0px auto;
+    width: 100%;
+}
+
+.createMain{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.createMain p{
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+
+.createForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.createForm input{
+    font-weight: 500;
+    color: #2c3e50;
+    font-size: 16px;
+    max-width: 200px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: white;
+    margin: 30px auto;
+}
