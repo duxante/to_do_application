@@ -1,0 +1,19 @@
+.buttonstyle{
+    display: inline-block;
+    outline: 0;
+    text-align: center;
+    cursor: pointer;
+    padding: 14px 28px;
+    color: #fff;
+    font-size: 17.5px;
+    border: 1px solid;
+    border-color: #fff;
+    color: #2c3e50;
+    background: #fff;
+    font-weight: 800;
+    transition: background-color .1s ease-in-out;
+}
+.buttonstyle:hover {
+    background-color: #fff;
+    color: #64809c;
+}
