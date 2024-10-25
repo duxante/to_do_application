@@ -11,7 +11,7 @@ const Navigation = () => {
           <Link to={{ pathname: '/' }}>Početna</Link>
           <Link to={{ pathname: '/create' }}>Kreiraj task</Link>
           <div className="taskNumber">
-            <Link to={{ pathname: '/tasks' }}>Lista taskova</Link>
+            <Link to={{ pathname: '/list' }}>Lista taskova</Link>
             <span className="number">162</span>
           </div>
           <Link to={{ pathname: '/about' }}>O nama</Link>
